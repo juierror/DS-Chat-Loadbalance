@@ -21,6 +21,7 @@ var io = require('socket.io')();
 io.on('connection', function (client) {
   console.log('user connected ok.');
 });
+//port 3001
 io.listen(3001);
 global.io = io;
 ///////////////////////////////////////////////////////////
